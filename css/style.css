@@ -1,5 +1,6 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,500;1,600;1,700&family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,500;1,600;1,700&family=Bebas+Neue&display=swap');
 
 * {
     box-sizing: border-box;
@@ -74,6 +75,39 @@ nav .lists li a:hover {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(236, 141, 31);
 
+}
+
+.about {
+    background-image: url("/css/images/aboutimage.jpg");
+    background-repeat: no-repeat;
+    background-size: 60%;
+    height: 60vh;
+    background-color: bisque;
+    padding: 50px 0;
+}
+
+.inner {
+    width:40%;
+    float:right;
+    padding: 25px;
+}
+
+#text {
+    font-family: 'Allison', cursive;
+    font-size: 1.7rem;
+
+}
+.wrapper {
+padding-top: 5%;
+   background-color: rgb(173, 169, 160, 0.7);
+}
+
+div .wrapper h1{
+   margin-top: 15%;
+    color: rgb(240, 130, 20);
+    font-size: 2rem;
+    margin-bottom: 5%;
+    text-align: center;
 }
 
 
