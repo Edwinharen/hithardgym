@@ -226,6 +226,80 @@ line-height: 3rem;
 
 }
 
+footer {
+    background-color: rgb(253, 135, 0);
+    height: 35rem;
+    width: 100%;
+    color: black;
+
+}
+
+.footer_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.footer_content h3 {
+    padding-top: 3rem;
+    font-size: 4rem;
+    font-weight: 300;
+    text-transform: capitalize;
+    line-height: 3rem;
+    color: rgb(41, 40, 40);
+}
+
+.footer_content p{
+    margin-top: 4rem;
+    margin-bottom: 0;
+    padding-bottom: 6rem;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    color: rgb(41, 40, 40);
+}
+
+.socials ul {
+
+ position: relative;
+    left: 50%;
+    padding-top: 5%;
+    padding-bottom: 1rem;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+.socials ul li {
+    list-style: none;
+    margin: 0 4rem;
+}
+
+.socials ul li .fa-brands{
+margin-top: 1.3rem;
+font-size: 3rem;
+line-height: 2rem;
+transition: .6%;
+color: rgb(253, 135, 0);
+}
+
+.socials ul li a{
+position: relative;
+display: block;
+width: 5rem;
+height: 5rem;
+border-radius: 5rem;
+text-align: center;
+background-color: rgb(54, 54, 54);
+    }
+
+.bottom_footer p{
+    margin-top: 0;
+    font-size: 1rem;
+}
+
 
 
 
