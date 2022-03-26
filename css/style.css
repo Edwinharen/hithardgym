@@ -134,6 +134,7 @@ padding-top: 5%;
     width:300px;
     padding: 60px;
     line-height: 25px;
+    box-shadow: 0 5px 4px rgba(0,0,0,1);
  
 }
 
@@ -141,6 +142,8 @@ padding-top: 5%;
     color: orange;
     font-size: 2rem;
     margin-bottom: 5rem;
+    text-shadow: 1px 1px rgba(0,0,0,.7);
+
 }
 
 .team_image img {
@@ -148,6 +151,7 @@ padding-top: 5%;
     margin-top: -10rem;
     width: 10rem;
     height: 10rem;
+    
 }
 
 
@@ -159,6 +163,7 @@ padding-top: 5%;
     justify-content: center;
     background-color: bisque;
     margin: 0;
+    
 
 }
 
@@ -192,12 +197,15 @@ padding-top: 5%;
     padding: 3rem;
     border-radius: 10px;
     margin-left: -15rem;
+    box-shadow: 0 5px 4px rgba(0,0,0,.7);
 }
 
 .rightbox h1{
     color: orange;
     font-size: 2rem;
     font-weight: bold;
+    text-shadow: 1px 1px rgba(0,0,0,.7);
+
 }
 
 .rightbox p {
@@ -223,6 +231,7 @@ line-height: 3rem;
     text-decoration: underline;
     color: orange;
     font-size: 3rem;
+    text-shadow: 1px 1px rgba(0,0,0,.7);
 
 }
 
@@ -244,7 +253,8 @@ footer {
 }
 
 .footer_content h3 {
-    padding-top: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     font-size: 4rem;
     font-weight: 300;
     text-transform: capitalize;
@@ -299,6 +309,83 @@ background-color: rgb(54, 54, 54);
     margin-top: 0;
     font-size: 1rem;
 }
+
+.form_container {
+    background-color: rgb(70, 68, 68);
+}
+.radio {
+    margin-left: 3rem;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 2rem;
+    color: rgb(253, 135, 0);
+}
+
+
+.radio input[type='radio']:checked:after {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #ffa500;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 3px solid white;
+}
+
+.details {
+    margin-left: 2%;
+    padding: 2%;
+    font-size: 2rem;
+    color: rgb(253, 135, 0);
+display: flex;
+text-shadow: 1px 1px rgba(0,0,0,.7);
+}
+
+ span .radio_group {
+    position: absolute;
+    left: 50%;
+
+}
+
+input[type=text] {
+    margin-left: 5%;
+
+
+    border: 2px solid  rgb(253, 135, 0);
+    border-radius: 4px;
+  }
+
+  .title 
+  {
+      text-align: center;
+      padding: 3rem;
+      font-size: 5rem;
+      color:#ffa500
+  }
+
+  .button {
+     position: relative; 
+    left:60%;
+    background-color: #ffa500;
+    border-color: black;
+    border-radius: 25px;
+    color: white;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: 500;
+    text-shadow: 1px 1px rgba(0,0,0,.7);
+
+  }
 
 
 
